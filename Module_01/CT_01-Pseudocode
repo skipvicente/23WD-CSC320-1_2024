@@ -1,7 +1,7 @@
 Module 1: Critical Thinking - Option #1: List Individual's Name and Address Information
 
 
-/* Pseudocode */
+/*** Pseudocode ***/
 
 On-screen text Intro Message
  		System.out.println("Enter your name and address.");
