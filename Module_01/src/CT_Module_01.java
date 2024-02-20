@@ -4,7 +4,7 @@ public class CT_Module_01 {
 
 	public static void main(String[] args) {
 
-		System.out.println("Please follow prompts to enter your name and address.");
+		System.out.println("Please follow prompts to enter your name and address."); ///test 2-20-24
 		
 		//Default info to be replaced by user sample
 		String fName = "z";
