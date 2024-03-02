@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class my_3_22_lab {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
