@@ -1,0 +1,29 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class CSC320_Mod_3_CT_Option_01 {
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        Scanner scnr2 = new Scanner(System.in);
+        ArrayList<String> daysInWeek = new ArrayList<>();
+        ArrayList<Double> dailyTemp = new ArrayList<>();
+        String dayofWeek;
+        Double temperature;
+
+        System.out.print("Enter the day of the week (Mon, Tues, Wed, Thur, Fri, Sat, Sun): ");
+        dayofWeek = scnr.nextLine();
+
+        System.out.print("Enter the temperature for this day fahrenheit (89.5): ");
+        temperature = scnr2.nextDouble();
+
+        daysInWeek.add(dayofWeek);
+        dailyTemp.add(temperature);
+
+
+
+
+
+    scnr.close();
+
+    }
+}

@@ -6,11 +6,11 @@ public class my_3_23_lab {
         
         String userInput; 
         int highwayNum;
-        int primaryNum;
+        //int primaryNum;
         String nS = " going north/south.";
         String eW = " going east/west.";
-        String aux = " is auxiliary,";
-        String notValid = " is not a valid interstate highway number.";
+        //String aux = " is auxiliary,";
+        //String notValid = " is not a valid interstate highway number.";
 
         
     // for testing only

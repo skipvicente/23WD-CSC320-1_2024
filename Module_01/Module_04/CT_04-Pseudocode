@@ -1,0 +1,31 @@
+Module 4: Critical Thinking - Option #1: Looping Construct with Floating Point Numbers
+
+/* Pseudocode */
+
+Housekeeping initialize;
+
+while loop to keep executing until five sets of floating points have been entered
+
+On-screen text Intro Message
+ 		System.out.println("Enter floating point No. ");
+		add to a 'counter' to keep track of limit to 5 floating point numbers
+
+		keep inserting the input value and compare to the previous/next until MAXIMUM is identified
+		if (inVal > max) {
+			max = inVal;
+		}
+		keep inserting the input value and compare to the previous/next until MINIMUM is identified
+		else if (inVal < min)  {
+			min = inVal;
+		} 
+
+		calculate average = total (of five numbers enter by user) then divide by 5;
+        calculate interest = total (of five numbers enter by user) then multiply by .2 which is 20%;
+
+        // Need to print TOTAL, AVERAGE, MAXIMUM, MINIMUM, INTEREST on TOTAL at 20%
+        System.out.print("The Total is: " + total);  //Only print to decimal places will need to use %.2f
+        System.out.print("The Average is: " + average);  //Only print to decimal places will need to use %.2f
+        System.out.print("The Max is: " + max);
+        System.out.print("The Min is: " + min);
+        System.out.print("The Interest is: " + interest);  //Only print to decimal places will need to use %.2f
+

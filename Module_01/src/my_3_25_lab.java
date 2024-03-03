@@ -9,7 +9,7 @@ public class my_3_25_lab {
         int myNewAmount01;
         int myNewAmount02;
         int myNewAmount03;
-        int myNewAmount04;
+        //int myNewAmount04;
 
         //System.out.println("number"); //Just for testing
         userInput = scnr.nextInt();
@@ -42,7 +42,7 @@ public class my_3_25_lab {
         //System.out.println("count_nickels "+ count_nickels);
         int minus_count_nickels = count_nickels * 5;
         //System.out.println("minus_count_nickels "+ minus_count_nickels);
-        myNewAmount04 = myNewAmount03 - minus_count_nickels;
+        //myNewAmount04 = myNewAmount03 - minus_count_nickels;
         //System.out.println("myNewAmount " + myNewAmount04);
 
         int count_pennies = ((((userInput - minus_count_dollars) - minus_count_quarters) - minus_count_dimes) - minus_count_nickels);
