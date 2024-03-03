@@ -5,7 +5,7 @@ public class my_3_25_lab {
         Scanner scnr = new Scanner(System.in);
         int userInput;
 
-        int myNewAmount;
+        //int myNewAmount;
         int myNewAmount01;
         int myNewAmount02;
         int myNewAmount03;
@@ -48,6 +48,7 @@ public class my_3_25_lab {
         int count_pennies = ((((userInput - minus_count_dollars) - minus_count_quarters) - minus_count_dimes) - minus_count_nickels);
         //System.out.println("count_pennies " + count_pennies);
 
+        scnr.close();
 
         if (userInput <= 0) {
             System.out.println("No change");

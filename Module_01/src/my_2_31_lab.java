@@ -31,5 +31,7 @@ public class my_2_31_lab {
 
       //System.out.printf(" MyNum %.3f", myNum);
       //System.out.printf("Avg %.3f" + myNumAvg);
+
+      scnr.close();
    }
 }

@@ -37,5 +37,7 @@ public class my_3_26_lab {
         else {
             System.out.println(inputYear + " is not a leap year.");
         }
+
+        scnr.close();
     }
  }

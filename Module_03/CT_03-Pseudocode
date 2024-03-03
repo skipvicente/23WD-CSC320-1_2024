@@ -1,0 +1,30 @@
+Module 3: Critical Thinking - Option #1: Calculate Average Withholding
+
+/* Pseudocode */
+
+On-screen text Intro Message
+ 		System.out.println("Enter customers weekly income");
+
+On-screen calculate weekly income at 10% tax rate
+ 		weekly income < $500
+        taxRate = 0.10
+
+On-screen calculate weekly income at 15% tax rate
+ 		weekly income >= $500 but less than $1500
+        taxRate = 0.15;
+
+On-screen calculate weekly income at 20% tax rate
+ 		weekly income >= $1500 but less than $2500
+        taxRate = 0.20
+
+On-screen calculate weekly income at 30% tax rate
+ 		weekly income >= $2500
+        taxRate = 0.30
+
+
+calculate weekly tax withholdings = weekly income * tax rate
+
+calculate AVERAGE withholdings = withholdings DIVIDED BY weekly income
+ 
+ On-screen display withholdings average		
+ 		System.out.println(" Your Average withholdings is: " averageWithHoldings);

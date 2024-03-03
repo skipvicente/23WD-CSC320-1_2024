@@ -8,7 +8,7 @@ public class my_2_30_lab {
       //int areaCode;
       //int phonePrefix;
       //int phoneSuffix;
-      int fullNum;
+      //int fullNum;
 
       
       
@@ -25,5 +25,7 @@ public class my_2_30_lab {
       System.out.println("suffix num " + phoneSuffix);
 
       System.out.println("(" + areaCode + ") " + phonePrefix + "-" + phoneSuffix);
+
+      scnr.close();
    }
 }

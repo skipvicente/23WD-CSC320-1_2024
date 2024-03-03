@@ -20,7 +20,9 @@ public class my_3_22_lab {
         
         smallest = Math.min(var01, Math.min(var02, var03));
         
-        System.out.println(smallest);      
+        System.out.println(smallest);  
+        
+        scnr.close();
      }
   }
   

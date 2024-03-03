@@ -35,6 +35,6 @@ public class my_2_29_lab {
        System.out.println(result4);
 
 
-
+       scnr.close();
     }
 }

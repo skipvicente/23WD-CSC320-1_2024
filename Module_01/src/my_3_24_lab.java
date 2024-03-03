@@ -162,7 +162,7 @@ public class my_3_24_lab {
             
           }
 
- 
+          scnr.close();
 
     }
 }

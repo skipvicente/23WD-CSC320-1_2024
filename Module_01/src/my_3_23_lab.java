@@ -56,8 +56,7 @@ public class my_3_23_lab {
                 System.out.println(highwayNum + " is not a valid interstate highway number.");
             }
 
-        //scanner.close();
+        scnr.close();
         }
-
         
     }

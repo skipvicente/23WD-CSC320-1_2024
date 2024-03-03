@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LabProgram {
+public class my_3_31_1_lab {
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);
       String userInput;
@@ -29,5 +29,7 @@ public class LabProgram {
       varBlue -= varGray;
       
       System.out.println(varRed + " " + varGreen + " " + varBlue);
+
+      scnr.close();
    }
 }

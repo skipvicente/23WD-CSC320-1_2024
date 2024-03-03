@@ -40,6 +40,11 @@ public class Test_Scripts {
       System.out.printf("Women: %.2f calories \n", wCalories);
       System.out.printf("Men: %.2f calories", mCalories);
 
+      scnr1.close();
+      scnr2.close();
+      scnr3.close();
+      scnr4.close();
+
    }
 } 
 
