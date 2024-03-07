@@ -28,7 +28,9 @@ Ex: lowerScores = {5, 0, 2, -3} becomes {4, 0, 1, 0}. *****/
          System.out.print(lowerScores[i] + " ");
       }
       System.out.println();
+     
    }
+   
 }
 
 
