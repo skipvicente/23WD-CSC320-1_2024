@@ -1,0 +1,36 @@
+Module 5: Critical Thinking - Option #1: Get Weekly Temperatures
+
+/* Pseudocode */
+
+Housekeeping initialize;
+
+
+For loop checks array list for count fo days in week. Count will sart from '0' and must be less than 7
+
+
+On-screen text Intro Message
+ 		System.out.println("Enter week day: (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday): ");
+
+		keep inserting the input value for day of week into array
+
+		while loop to keep checking that entered day is in a valid user input
+
+		if the entred day of week from user in not valid day of week
+			
+		System.out.println("That's not a valid weekday. Please enter a valid weekday.");
+
+		If day of week is valid then user is asked to enter the temperature for that day
+		
+		
+		Once the week days have been populated thenext prompt will check while true
+
+		User can enter day of week to see date or request the weeks average temperature
+
+		if check: 
+			1) user input is valid and return temperature if valid 
+			2) user inout is invalid and return error msg "Invalid input. Please enter a valid day or 'week'."
+			3) Return week average if 'week' has been types
+
+
+
+		calculate average = total (of week day enter temperatures) then rounded to reduce decimel places
